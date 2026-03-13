@@ -1,48 +1,28 @@
-# SGATC - Backend
+# 📦 SGATC: Sistema de Gestión de Almacenes y Control de Stock
 
-## Requisitos y ejecución
+> Una solución integral para el control de inventarios comerciales que optimiza el reabastecimiento por lotes, la trazabilidad de productos y la generación de reportes analíticos.
 
-**Requisitos:**
+---
 
-- Node.js v14+ y npm
+## 🎯 El Desafío
+La gestión manual de inventarios suele derivar en pérdidas por productos vencidos o falta de stock.
+* **Problema:** Necesidad de un control riguroso de fechas de caducidad, alertas de stock mínimo y gestión eficiente de entradas/salidas.
+* **Solución:** Un sistema dinámico que automatiza las alertas de escasez y permite una gestión granular por lotes, facilitando el reabastecimiento y la depuración de productos dañados.
 
-**Instalación y ejecución:**
+## 🛠️ Stack Tecnológico
+* **Frontend:** React.js (Interfaz dinámica y responsiva).
+* **Backend:** Node.js + Express.
+* **Base de Datos:** MySQL (Diseño relacional para integridad de datos).
+* **Gestión de Paquetes:** npm.
 
-1. Accede a la carpeta del proyecto:
-   ```bash
-   cd Desarrollo/SGATC/fuentes/backend
-   ```
-2. Instala Dependencias:
-   ```bash
-   npm install
-   ```
-3. Inicia el servidor:
-   ```bash
-   npm start
-   ```
-4. En otra terminal ejecuta el comando:
-   ```bash
-   cd Desarrollo/SGATC/fuentes/backend/src/server
-   ```
-5. Ejecuta el server:
-   ```bash
-   node server.js
-   ```
+## ✨ Características Principales
+* ✅ **Gestión por Lotes:** Sistema de entrada y salida basado en lotes para un control preciso de cantidades y fechas de vencimiento.
+* ✅ **Alertas de Stock:** Notificaciones automáticas cuando un producto alcanza niveles críticos de existencia.
+* ✅ **Búsqueda Avanzada:** Filtros dinámicos por código, nombre, marca y categoría.
+* ✅ **Visualización de Datos:** Gráficos estadísticos sobre las fechas de reabastecimiento y volumen de productos ingresados.
 
-4. Si falla(afuera de la carpeta server):
-   ```bash
-   npm install react react-dom
-   npm install --save-dev react-scripts
-   ```
-
-## Credenciales de prueba
-
-**Usuario de prueba 1:**
-
-- Usuario: admin
-- Contraseña: 1234
-
-**Usuario de prueba 2:**
-
-- Usuario: usuario1
-- Contraseña: clave123
+## ⚙️ Mantenimiento y Evolución (SCM)
+Este proyecto se destaca por haber pasado por una fase formal de **Gestión de la Configuración y Mantenimiento**, donde se implementaron mejoras críticas:
+* **Exportación de Datos:** Integración de librerías para generar reportes descargables en **Excel y PDF**.
+* **Refactorización de UI:** Rediseño de componentes, tablas y botones, aplicando una nueva paleta de colores para mejorar la experiencia de usuario.
+* **Control de Versiones:** Aplicación de políticas de cambios y mantenimiento evolutivo para asegurar la escalabilidad del sistema.
