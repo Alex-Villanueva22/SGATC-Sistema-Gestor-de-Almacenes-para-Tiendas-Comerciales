@@ -1,4 +1,4 @@
-# 📦 SGATC: Sistema de Gestión de Almacenes y Control de Stock
+# 📦 SGATC: Sistema de Gestión de Almacenes para Tiendas Comerciales
 
 > Una solución integral para el control de inventarios comerciales que optimiza el reabastecimiento por lotes, la trazabilidad de productos y la generación de reportes analíticos.
 
@@ -26,3 +26,4 @@ Este proyecto se destaca por haber pasado por una fase formal de **Gestión de l
 * **Exportación de Datos:** Integración de librerías para generar reportes descargables en **Excel y PDF**.
 * **Refactorización de UI:** Rediseño de componentes, tablas y botones, aplicando una nueva paleta de colores para mejorar la experiencia de usuario.
 * **Control de Versiones:** Aplicación de políticas de cambios y mantenimiento evolutivo para asegurar la escalabilidad del sistema.
+
