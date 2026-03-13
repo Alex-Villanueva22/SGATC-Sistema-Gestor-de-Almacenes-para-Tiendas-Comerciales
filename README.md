@@ -27,3 +27,5 @@ Este proyecto se destaca por haber pasado por una fase formal de **Gestión de l
 * **Refactorización de UI:** Rediseño de componentes, tablas y botones, aplicando una nueva paleta de colores para mejorar la experiencia de usuario.
 * **Control de Versiones:** Aplicación de políticas de cambios y mantenimiento evolutivo para asegurar la escalabilidad del sistema.
 
+## 🎓 Contexto Académico
+Proyecto desarrollado para la asignatura de **Gestión de la Configuración de Software**.
